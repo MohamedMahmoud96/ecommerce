@@ -1,0 +1,119 @@
+
+body {
+
+	background:#EEE;
+	font-size:16px;
+}
+
+/*Start longin*/
+.login{
+
+	margin:100px auto;
+    width: 300px;
+}
+
+ .login input {
+
+	margin-bottom:10px;
+	background:#f3f3f3;
+}
+
+
+.login h3 {
+
+	color:#a29f9f;
+}
+
+/*End Longin*/
+/*start Bootstrap*/
+/*Start Navbar*/
+
+.navbar-inverse{
+
+	border-radius:0px; 
+
+}
+
+.navbar-inverse .dropdown-menu{
+	color:#FFFF;
+	right:-55px;
+	background:#d2d0d8;
+}
+.dropdown-menu>li>a,
+.dropdown-menu>li>a:focus,
+ .dropdown-menu>li>a:hover{
+
+ 	padding:5px 10px;
+
+
+}
+
+/*End Navbar*/
+/*End Bootstrap*/
+
+/*Start Dashbord page*/
+.activate {
+
+	margin-left:4px;  
+}
+.Home-stats .stat {
+	border: 1px solid #ccc;
+	padding:20px;
+	color:#FFF;
+	font-size:15px; 
+	border-radius:20px; 
+}
+.Home-stats .st-member  {background:#3498db;}
+.Home-stats .st-pending {background:#c0392b;}
+.Home-stats .st-item    {background:#e74c3c;}
+.Home-stats .st-comment {background:#8e44ad;}
+.Home-stats .stat a{
+	color:#FFF;
+	text-decoration:none;  
+}
+.Home-stats .stat span {
+	font-size:50px;
+	display:block;
+}
+.latest {margin-top:30px;}
+
+/*End Dashbord page*/
+
+/*member page*/
+.main-table tr:first-child td {
+
+	background:#333;
+	color:#FFF;
+}
+
+/*Categories Manage*/
+.panel-body {padding:0px; }
+.panel-body .cate, 
+.panel-body .items {
+	position:relative; 
+	padding:10px 0 15px 15px ; 
+	overflow:hidden; 
+}.panel-body .cate:hover{background:#EEE } 
+.panel-body .cate .hidden-buttons{
+	transition:all .5s;
+	position:absolute;
+	top:15px;
+	right:-130px; 
+}
+.panel-body .cate:hover .hidden-buttons{right:10px }
+.panel-body .cate a {margin-right:5px; padding:1px 5px; font-size:13px;  }
+.panel-body .cate h3{margin:5px 0 10px 0px; }
+.panel-body hr {margin-top:5px; margin-bottom:0px; }
+.panel-body .cate .visiblty,
+.panel-body .cate .commenting,
+.panel-body .cate .ads {
+	color:#FFF;
+	padding:4px 6px; 
+	margin-right:10px;
+	border-radius:5px;   }
+
+.panel-body .cate .visiblty{background:red;}
+.panel-body .cate .commenting{background:blue;}
+.panel-body .cate .ads{background:gray; }
+.panel-heading .ordering a{color:#929090} 
+.panel-heading .ordering .active {color:red; }

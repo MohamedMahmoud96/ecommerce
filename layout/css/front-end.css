@@ -1,0 +1,185 @@
+
+body header
+{
+	opacity: 0.7;
+	margin-bottom:70px; 
+}
+	
+
+body header .menu ul   
+{
+	margin-top:25px;
+}
+body footer {
+
+	background-color: #fff; 
+	opacity: 0.9; 
+	text-align:center;
+}
+
+body {
+
+	background:url('../images/back3.jpg') no-repeat center center fixed;
+	font-size:16px;
+}
+
+/*start Bootstrap*/
+/*Start Header Page r*/
+.upper-bar img{width:50px; height:50px;  }
+.navbar-inverse{
+
+	border-radius:0px; 
+
+}
+
+.navbar-inverse .dropdown-menu{
+	color:#FFFF;
+	right:-55px;
+	background:#d2d0d8;
+}
+.dropdown-menu>li>a,
+.dropdown-menu>li>a:focus,
+ .dropdown-menu>li>a:hover{
+
+ 	padding:5px 10px;
+
+
+}
+
+/*End Navbar*/
+/*End Bootstrap*/
+
+/*Start Dashbord page*/
+.activate {
+
+	margin-left:4px;  
+}
+.Home-stats .stat {
+	border: 1px solid #ccc;
+	padding:20px;
+	color:#FFF;
+	font-size:15px; 
+	border-radius:20px; 
+}
+.Home-stats .st-member  {background:#3498db;}
+.Home-stats .st-pending {background:#c0392b;}
+.Home-stats .st-item    {background:#e74c3c;}
+.Home-stats .st-comment {background:#8e44ad;}
+.Home-stats .stat a{
+	color:#FFF;
+	text-decoration:none;  
+}
+.Home-stats .stat span {
+	font-size:50px;
+	display:block;
+}
+.latest {margin-top:30px;}
+
+/*End Dashbord page*/
+
+/*member page*/
+.main-table tr:first-child td {
+
+	background:#333;
+	color:#FFF;
+}
+
+/*Categories Manage*/
+.panel-body {padding:0px; }
+.panel-body .cate, 
+.panel-body .items {
+	position:relative; 
+	padding:10px 0 15px 15px ; 
+	overflow:hidden; 
+}.panel-body .cate:hover{background:#EEE } 
+.panel-body .cate .hidden-buttons{
+	transition:all .5s;
+	position:absolute;
+	top:15px;
+	right:-130px; 
+}
+.panel-body .cate:hover .hidden-buttons{right:10px }
+.panel-body .cate a {margin-right:5px; padding:1px 5px; font-size:13px;  }
+.panel-body .cate h3{margin:5px 0 10px 0px; }
+.panel-body hr {margin-top:5px; margin-bottom:0px; }
+.panel-body .cate .visiblty,
+.panel-body .cate .commenting,
+.panel-body .cate .ads {
+	color:#FFF;
+	padding:4px 6px; 
+	margin-right:10px;
+	border-radius:5px;   }
+
+.panel-body .cate .visiblty{background:red;}
+.panel-body .cate .commenting{background:blue;}
+.panel-body .cate .ads{background:gray; }
+.panel-heading .ordering a{color:#929090} 
+.panel-heading .ordering .active {color:red; }
+/* =========================================================
+Categories page */
+.thumbnail .price {
+
+	background:#888;
+	width:80px; 
+	color:#FFF;
+	font-size:25px; 
+	border-radius: 15px;
+	text-align:center; 
+	
+	margin-top:5px; 
+}
+
+/* login page */
+.login-page form {max-width:500px;  margin:auto; }
+.login-page h1 {font-width:bolder; font-size:50px;  color:#cecece; margin-bottom:40px; }
+.login-page h1 span {cursor:pointer;}
+.login-page  [data-class = "login"].active 	{color:#337AB7}
+.login-page  [data-class = "signup"].active {color:#5cb85c}
+.form-group input {margin-bottom:10px;}
+.login-page .signup{display:none }
+
+
+/*Profile Page*/
+
+.panel-body{padding:10px;}
+.information .panel-body ul {margin:0; padding:0; }
+.information .panel-body li {padding:10px;}
+.information .panel-body li:nth-child(odd){background:#EEE; }
+.information .panel-body ul span {display:inline-block; width: 90px;}
+.box-ads p {height:40px;  max-height:40px }
+.not-Approve{background-color:#bf3939; padding:3px ; color:#FFF;}
+.date{color:#888; position:relative; }
+
+/* Items page*/
+.item-info ul {margin:0; padding:0; }
+.item-info li {padding:10px;}
+.item-info ul li:nth-child(odd){background:#d8d8d8; }
+.item-info ul span {display:inline-block; width: 120px;}
+
+hr{border-top:1px solid #c7c7c7;}
+
+.add-comment h3{margin:0px 0 15px;}
+.add-comment form textarea {
+	display:block; 
+	width:500px;
+	height:100px;
+	margin-bottom:10px; }
+
+.comment-box img {max-width:80px }	
+.comment-box h3 {margin-top:10px }
+.comment-box .lead{
+	margin-top:10px; 
+	background-color:#dedede; 
+	padding:10px;
+	position:relative;   }
+.comment-box .lead:before{
+	content:'';
+	width:0px;
+	height: 0px;  
+	border-width:15px ;
+	border-style:solid;
+	border-color: transparent #dedede transparent transparent;
+	position: absolute;
+	top:10px;
+	left:-29px;   
+}
